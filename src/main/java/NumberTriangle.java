@@ -66,7 +66,6 @@ public class NumberTriangle {
         // for fun [not for credit]:
     }
 
-
     public boolean isLeaf() {
         return right == null && left == null;
     }
@@ -101,7 +100,6 @@ public class NumberTriangle {
 
         return current.getRoot();
     }
-
 
     /** Read in the NumberTriangle structure from a file.
      *
